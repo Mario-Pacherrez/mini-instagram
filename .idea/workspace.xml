@@ -2,143 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0335ccd-7a27-4d36-98a9-b7bd5e03c731" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mini-instagram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Helpers/FormatTime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Like.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/FormatTimeServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_051807_create_images_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_18_060306_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_01_21_081821_create_likes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CommentsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ImagesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LikesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/heart-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/heart-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/image/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/image/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/image/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/avatar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/image.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/like/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/config.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,11 +57,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state relative-caret-position="70">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -268,6 +146,7 @@
         <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/storage/app/.gitignore" />
       </list>
     </option>
   </component>
@@ -363,7 +242,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
     <option name="y" value="319" />
     <option name="width" value="1362" />
@@ -385,114 +264,6 @@
             <path>
               <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="like" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -500,13 +271,6 @@
               <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mini-instagram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mini-instagram" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -584,15 +348,15 @@
       <workItem from="1582959037629" duration="1682000" />
       <workItem from="1583044166924" duration="4419000" />
       <workItem from="1583092981851" duration="3511000" />
-      <workItem from="1583395273939" duration="1730000" />
+      <workItem from="1583395273939" duration="2055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184654000" />
+    <option name="totallyTimeSpent" value="184979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
@@ -621,46 +385,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_18_060306_create_comments_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#116#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#39#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding>
-            <element signature="e#33#117#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -994,8 +718,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state relative-caret-position="70">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
